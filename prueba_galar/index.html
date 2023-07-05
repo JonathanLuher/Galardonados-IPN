@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/materialize.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./css/footer.css">
+    <script src="./JS/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded',function(){
+            var elems=document.querySelectorAll('.slider');
+            var instances=M.Slider.init(elems,{
+                height:330,
+                interval:2500,
+                });
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded',function(){
+            M.AutoInit();
+        });
+    </script>
+    <title>IPN</title>
+</head>
+<body>
+    <header>
+        <div class="navbar-fixed">
+            <nav class="pink darken-4">
+                <div class="nav-wrapper container">
+                    <a href="#!" class="brand-logo right">
+                        <ul class="right hide-on-med-and-down">
+                            <img class="responsive-img right" src="./img/logo_ipn_st.png">
+                        </ul>
+                    </a>
+                    <a href="#" data-target="menu-responsive" class="sidenav-trigger">
+                        <i class="material-icons">menu</i>
+                    </a>
+                    <ul class="left hide-on-med-and-down ">
+                        <li><a href="./pdf/Convocatoria DMP 2022.pdf">Convocatoria</a></li>
+                        <li><a href="./html/documentos.html">Documentos</a></li>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li>
+                        <a href="#" class="dropdown-trigger" data-target="id_drop">
+                            Log In
+                            <i class="material-icons right">arrow_drop_down</i>
+                        </a>
+                        <ul id="id_drop" class="dropdown-content">
+                            <li><a href="./html/login_ganador.html">Ganador</a></li>
+                            <li><a href="./html/login_director.html">Director</a></li>
+                            <li class="divider"></li>
+                            <li><a href="./html/login_admin.html">Admin</a></li>
+                        </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <ul class="sidenav" id="menu-responsive">
+            <li>
+                <div class="user-view">
+                    <div class="background">
+                        <img class="responsive-img" src="./img/fondo_1.jpg">
+                    </div>
+                    <a href="#">
+                        <img src="./img/logo_ipn_st.png" class="circle">
+                    </a>
+                    <a href="#">
+                        <span class="name white-text">Instituto Politécnico Nacional</span>
+                    </a>
+                    <a href="#">
+                        <span class="email white-text">"La técnica al servicio de la patria"</span>
+                    </a>
+                </div>
+            </li>
+            <li><a href="./pdf/Convocatoria DMP 2022.pdf">Convocatoria</a></li>
+            <li><a href="./html/documentos.html">Documentos</a></li>
+            <li><a href="index.html">Inicio</a></li>
+            <li>
+                <a href="#" class="dropdown-trigger" data-target="id_dropm">
+                    Log In
+                    <i class="material-icons right">arrow_drop_down</i>
+                </a>
+                <ul id="id_dropm" class="dropdown-content">
+                    <li><a href="./html/login_ganador.html">Ganador</a></li>
+                    <li><a href="./html/login_director.html">Director</a></li>
+                    <li class="divider"></li>
+                    <li><a href="./html/login_admin.html">Admin</a></li>
+                </ul>
+            </li>
+        </ul>
+        <div class="row">
+            <img class="responsive-img" src="./img/banner.fw.png">
+        </div>
+        <div class="divider"></div>
+    </header>
+    <main>
+        <div class="slider">
+            <ul class="slides">
+                <li>
+                    <img class="responsive-img" src="./img/Slider/Slider_1.png" alt="">
+                    <div class="caption center-align">
+                    </div>
+                </li>
+                <li>
+                    <img class="responsive-img" src="./img/Slider/Slider_2.png" alt="">
+                    <div class="caption center-align">
+                        <h1>Registro.</h1>
+                        <h4>Revise la barra de navegacion.</h4>
+                    </div>
+                </li>
+                <li>
+                    <img class="responsive-img" src="./img/Slider/Slider_3.png" alt="">
+                    <div class="caption center-align">
+                        <h1>Importante.</h1>
+                        <h4 class="light">Revise los documentos en el menu.</h4>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="container ">
+            <div class="row">
+                <div class="center-align">
+                    <h1 class="pink-text text-darken-4 flow-text">Distinciones al mérito poltécnico 2022.</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-light">
+                            <img class="activator responsive-img" src="./img/Cards/img1.png">
+                            <span class="card-title activator">Auditorio</span>
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator text-blue-grey darken-4">Mayor informacion</span>
+                        </div>
+                        
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">
+                                Ubicación
+                                <i class="material-icons right">close</i>
+                            </span>
+                            <div class="divider"></div>
+                            <p>El audtorio en el que se llevará a cabo el evento será en el auditorio Jaime Torres Bodet.</p>
+                            <p>El acceso será por Av. Wilfrido Massieu con el boleto generado en su registro.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-light">
+                            <img class="activator responsive-img" src="./img/Cards/img2.png">
+                            <span class="card-title activator">Pre-registro</span>
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator text-blue-grey darken-4">Mayor informacion</span>
+                        </div>
+                        
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">
+                                Inicio de sesión
+                                <i class="material-icons right">close</i>
+                            </span>
+                            <div class="divider"></div>
+                            <p>La contraseña para su inicio de sesión está conformada por las iniciales de su nombre(minusculas) y  el último digito de No. Boleta o No. Empleado.</p>                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-light">
+                            <img class="activator responsive-img" src="./img/Cards/img3.png">
+                            <span class="card-title activator">Documentos</span>
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator text-blue-grey darken-4">Mayor informacion</span>
+                        </div>
+                        
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">
+                                Documentos
+                                <i class="material-icons right">close</i>
+                            </span>
+                            <div class="divider"></div>
+                            <p>Es importante que lea los documentos de apoyo que se encuentran en la barra de navegación.</p>
+                            <p>Estos contienen información acerca del proceso de la entrega de premios.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="row">
+                <div class=" col s12 m12 l12">
+                    <h1 class="center-align pink-text text-darken-4 flow-text">Material de difusion</h3>
+                </div>
+                <div class=" col s12 m12 l12">
+                    <img class="responsive-img z-depth-3" src="./img/Material_de_difusion.png">
+                </div>
+            </div>
+            <div class="divider"></div><br>
+            <div class="row">
+                <br>
+                <div class="col s12 m12 l4">
+                    <div>
+                        <p><i class="material-icons left">account_circle</i>
+                            Informacion de contacto.
+                        </p><br>
+                        <p><i class="material-icons left">mark_as_unread</i>
+                            e-mail de contacto: cgc@ipn.mx
+                        </p><br>
+                        <p><i class="material-icons left">local_phone</i>
+                            Conmutador: 55 57 29 60 00 /<br>55 57 29 63 00 
+                        </p>
+                        <p><i class="material-icons left">add_ic_call</i>
+                            Extensiones: 50136, 50138 / 50027
+                        </p><br>
+                        <p><i class="material-icons left">location_on</i>
+                            Av. Wilfrido Massieu s/n, Unidad Profesional Adolfo Lopez Mateos, Gustavo A. Madero,
+                            C.P. 07738, Ciudad de México.
+                        </p><br>
+                    </div>
+                </div>
+                <div class="col s12 m12 l8 z-depth-2">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7522.061864766248!2d-99.13507602041366!3d19.497304950842974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f9b0903dd831%3A0xef0362ce680787c8!2sCentro%20Cultural%20Jaime%20Torres%20Bodet!5e0!3m2!1ses!2smx!4v1672430014018!5m2!1ses!2smx"
+                    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+            <div class="divider"></div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-containerf">
+            <div class="footer-content-containerf">
+                <h3 class="website-logo">DMP</h3>
+                <span class="footer-info">Correo electrónico:</span>
+                <span class="footer-info">cgdbp@ipn.mx</span>
+            </div>
+            <div class="footer-menus">
+                <div class="footer-content-containerf">
+                    <span class="menu-title">menu</span>
+                    <a href="" class="menu-item-footer">Home</a>
+                    <a href="" class="menu-item-footer">Courses</a>
+                    <a href="" class="menu-item-footer">Testimonials</a>
+                </div>
+                <div class="footer-content-containerf">
+                    <span class="menu-title">legal</span>
+                    <a href="" class="menu-item-footer">Privacy Policy</a>
+                    <a href="" class="menu-item-footer">Cookies</a>
+                    <a href="" class="menu-item-footer">Legal Advice</a>
+                </div>
+            </div>
+            
+            <div class="footer-content-containerf">
+                <span class="menu-title">Siguenos</span>
+                <div class="social-containerf">
+                    <a href="#" class="social-link"></a>
+                    <a href="#" class="social-link" :nth-of-type(1)></a>
+                    <a href="#" class="social-link" :nth-of-type(2)></a>
+                    <a href="#" class="social-link" :nth-of-type(3)></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-containerf">
+            <span class="copyright">Copyright 2023, www.ipn.mx. Todos los derechos reservados.</span>
+        </div>
+    </footer>
+</body>
+</html>

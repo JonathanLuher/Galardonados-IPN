@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/materialize.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../css/footer.css">
+    <script src="../JS/materialize.min.js"></script>
+    <script src="../JS/materialize.min.js"></script>
+    <script src="../JS/jquery-3.6.1.min.js"></script>
+    <script src="../JS/plugins/justValidate.js"></script>
+    <script src="../JS/plugins/sweetAlert.js"></script>
+
+    <script src="../JS/login.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded',function(){
+            M.AutoInit();
+        });
+    </script>
+    <title>Director</title>
+</head>
+<body>
+    <header>
+        <div class="navbar-fixed">
+            <nav class="pink darken-4">
+                <div class="nav-wrapper container">
+                    <a href="#!" class="brand-logo right">
+                        <ul class="right hide-on-med-and-down">
+                            <img class="responsive-img right" src="../img/logo_ipn_st.png">
+                        </ul>
+                    </a>
+                    <a href="#" data-target="menu-responsive" class="sidenav-trigger">
+                        <i class="material-icons">menu</i>
+                    </a>
+                    <ul class="left hide-on-med-and-down ">
+                        <li><a href="../pdf/Convocatoria DMP 2022.pdf">Convocatoria</a></li>
+                        <li><a href="./documentos.html">Documentos</a></li>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li>
+                        <a href="#" class="dropdown-trigger" data-target="id_drop">
+                            Log In
+                            <i class="material-icons right">arrow_drop_down</i>
+                        </a>
+                        <ul id="id_drop" class="dropdown-content">
+                            <li><a href="./login_ganador.html">Ganador</a></li>
+                            <li><a href="#">Director</a></li>
+                            <li class="divider"></li>
+                            <li><a href="./login_admin.html">Admin</a></li>
+                        </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <ul class="sidenav" id="menu-responsive">
+            <li>
+                <div class="user-view">
+                    <div class="background">
+                        <img class="responsive-img" src="../img/fondo_1.jpg">
+                    </div>
+                    <a href="#">
+                        <img src="../img/logo_ipn_st.png" class="circle">
+                    </a>
+                    <a href="#">
+                        <span class="name white-text">Instituto Politécnico Nacional</span>
+                    </a>
+                    <a href="#">
+                        <span class="email white-text">"La técnica al servicio de la patria"</span>
+                    </a>
+                </div>
+            </li>
+            <li><a href="../pdf/Convocatoria DMP 2022.pdf">Convocatoria</a></li>
+            <li><a href="./documentos.html">Documentos</a></li>
+            <li><a href="../index.html">Inicio</a></li>
+            <li>
+                <a href="#" class="dropdown-trigger" data-target="id_dropm">
+                    Log In
+                    <i class="material-icons right">arrow_drop_down</i>
+                </a>
+                <ul id="id_dropm" class="dropdown-content">
+                    <li><a href="./login_ganador.html">Ganador</a></li>
+                    <li><a href="#">Director</a></li>
+                    <li class="divider"></li>
+                    <li><a href="./login_admin.html">Admin</a></li>
+                </ul>
+            </li>
+        </ul>
+        <div class="row">
+            <img class="responsive-img" src="../img/banner.fw.png">
+        </div>
+        <div class="divider"></div><br>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="center-align">
+                    <img class="responsive-img" src="../img/LogIn/login_director.fw.png">
+                </div>
+                <div class="row">
+                    <h3 class="flow-text">
+                        Director
+                    </h3>
+                    <p>
+                        Es importante su colaboración en su inicio de sesión para obtener informacion acerca de los asistentes confirmados al evento, así como brindar ayuda a los participantes que lo requieran.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <form autocomplete="off" id="form-login-director">
+                    <div class="row">
+                        <div class="input-field col s12 m12 l4">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input id="boleta" name="boleta" type="text" ><!--class="validate" required>-->
+                            <label for="boleta">No. Boleta</label>
+                        </div>
+                        <div class="input-field col s12 m12 l4">
+                            <i class="material-icons prefix">vpn_key</i>
+                            <input id="password" type="password" name="password"><!--class="validate" required>-->
+                            <label for="password">Contraseña</label>
+                        </div>
+                        <div class="col s12 m12 l4">
+                            <div class="section">
+                                <div class="row">
+                                    <button class="btn pink darken-4 waves-effect waves-light" type="submit" style="width: 100%">
+                                        Entrar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-containerf">
+            <div class="footer-content-containerf">
+                <h3 class="website-logo">DMP</h3>
+                <span class="footer-info">Correo electrónico:</span>
+                <span class="footer-info">cgdbp@ipn.mx</span>
+            </div>
+            <div class="footer-menus">
+                <div class="footer-content-containerf">
+                    <span class="menu-title">menu</span>
+                    <a href="" class="menu-item-footer">Home</a>
+                    <a href="" class="menu-item-footer">Courses</a>
+                    <a href="" class="menu-item-footer">Testimonials</a>
+                </div>
+                <div class="footer-content-containerf">
+                    <span class="menu-title">legal</span>
+                    <a href="" class="menu-item-footer">Privacy Policy</a>
+                    <a href="" class="menu-item-footer">Cookies</a>
+                    <a href="" class="menu-item-footer">Legal Advice</a>
+                </div>
+            </div>
+            
+            <div class="footer-content-containerf">
+                <span class="menu-title">Siguenos</span>
+                <div class="social-containerf">
+                    <a href="#" class="social-link"></a>
+                    <a href="#" class="social-link" :nth-of-type(1)></a>
+                    <a href="#" class="social-link" :nth-of-type(2)></a>
+                    <a href="#" class="social-link" :nth-of-type(3)></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-containerf">
+            <span class="copyright">Copyright 2021, itskrey.com. All rights reserved.</span>
+        </div>
+    </footer>
+</body>
+</html>
